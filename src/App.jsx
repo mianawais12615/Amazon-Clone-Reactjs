@@ -74,8 +74,7 @@ function Amazon() {
         </div>
       </header>
 
-      <div className="hero-section" style= {{backgroundimage: "url('/hero section.jpg')" }} >
-      </div>
+      <div className="hero-section"></div>
 
       {/* Shop Section */}
       <div className="shop-section">
@@ -220,7 +219,7 @@ function Amazon() {
       </div>
 
       <div className="footer-panel3">
-        <div className="Flogo"></div>
+        <div className="Flogo" style= {{backgroundimage: "url('./whitelogo.jpg')" }} ></div>
       </div>
 
         
