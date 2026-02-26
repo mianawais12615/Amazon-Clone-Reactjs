@@ -7,7 +7,7 @@ function Amazon() {
       <header>
         <div className="navbar">
           <div className="navlogo border">
-            <div className="logo"></div>
+            <div className="logo" style= {{backgroundimage: "url('./whitelogo.jpg')" }}></div>
           </div>
 
           <div className="nav-address border">
@@ -74,7 +74,8 @@ function Amazon() {
         </div>
       </header>
 
-      <div className="hero-section"></div>
+      <div className="hero-section" style= {{backgroundimage: "url('/hero section.jpg')" }} >
+      </div>
 
       {/* Shop Section */}
       <div className="shop-section">
@@ -83,7 +84,7 @@ function Amazon() {
             <h2>Home & Decoration</h2>
             <div
               className="box-img"
-              style={{ backgroundImage: "url('./aa3.jpg')" }}
+              style= {{backgroundImage: "url('./aa3.jpg')" }}
             ></div>
             <p>Buy Now</p>
           </div>
